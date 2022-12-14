@@ -9,6 +9,9 @@ import ru.netology.springbootdemo.implementation.SystemProfile;
 @RequestMapping("/")
 public class ProfileController {
     private SystemProfile profile;
+    public void setProfile(SystemProfile profile){
+        this.profile=profile;
+    }
     public ProfileController(SystemProfile profile){
         this.profile=profile;
     }
