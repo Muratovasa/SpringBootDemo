@@ -18,6 +18,9 @@ target/
 *.iws
 *.iml
 *.ipr
+out
+!**/scr/main/**/out/
+!**/scr/test/**/out/
 
 ### NetBeans ###
 /nbproject/private/
@@ -73,3 +76,5 @@ captures/
 
 ### Gradle ###
 !gradle/wrapper/gradle-wrapper.jar
+
+.mvn/wrapper/
