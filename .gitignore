@@ -78,3 +78,6 @@ captures/
 !gradle/wrapper/gradle-wrapper.jar
 
 .mvn/wrapper/
+mvnw
+mvnw.cmd
+pom.xml
